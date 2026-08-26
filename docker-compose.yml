@@ -1,9 +1,9 @@
 services:
-  toefl-practice-lab:
+  mimic-prep:
     build:
       context: .
       dockerfile: Dockerfile
-    image: toefl-2026-practice-lab:6.0.0
+    image: mimic-prep:6.0.0
     restart: unless-stopped
     env_file:
       - .env

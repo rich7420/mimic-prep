@@ -1,6 +1,13 @@
-# TOEFL 2026 Practice Lab v6.0.0
+# Mimic Prep v6.0.0
 
-An unofficial, research-grounded Reading and Writing practice platform for the TOEFL iBT format introduced in January 2026.
+> **Unofficial. Not affiliated with, endorsed by, or sponsored by ETS.**
+> TOEFL and TOEFL iBT are trademarks of ETS and are used here only to
+> describe the test format this practice material is aligned to.
+> This project bundles **only original practice content** and reproduces no
+> official question, answer key, or score scale.
+> See [`LICENSE_NOTICE.md`](LICENSE_NOTICE.md) and [`SOURCE_POLICY.md`](SOURCE_POLICY.md).
+
+An independent, research-grounded Reading and Writing practice platform for the TOEFL iBT format introduced in January 2026.
 
 v6.0.0 combines two original full Reading forms, the complete updated Writing sequence, focused Reading practice, persistent attempts, provider-neutral generation and grading, and a new **Content Intelligence** layer that audits source provenance, task blueprints, editorial coverage, duplicate risk, and release readiness.
 
@@ -227,7 +234,11 @@ Before public high-stakes use, the project still needs:
 
 ## Trademark and independence
 
-TOEFL and TOEFL iBT are trademarks of ETS. This project is independent, unofficial, and not endorsed by ETS.
+TOEFL and TOEFL iBT are trademarks of ETS. This project is independent, unofficial, and not endorsed by ETS. Full trademark, licensing, and third-party-material scope is documented in [`LICENSE_NOTICE.md`](LICENSE_NOTICE.md).
+
+## License
+
+Dual-licensed: application code under the [MIT License](LICENSE), original practice content under [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). See [`LICENSE_NOTICE.md`](LICENSE_NOTICE.md) for what each covers.
 
 ## Complete-source package additions
 

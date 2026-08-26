@@ -1,9 +1,10 @@
 {
-  "name": "toefl-2026-practice-lab",
+  "name": "mimic-prep",
   "version": "6.0.0",
+  "license": "SEE LICENSE IN LICENSE_NOTICE.md",
   "private": true,
   "type": "module",
-  "description": "Unofficial ETS-aligned 2026 TOEFL mock and focused-practice platform with content intelligence, two parallel Reading forms, full Writing, persistent records, and provider-neutral generation/grading.",
+  "description": "Unofficial practice platform aligned to the public 2026 TOEFL iBT task specifications: content intelligence, two parallel Reading forms, full Writing, persistent records, and provider-neutral generation/grading. Not affiliated with or endorsed by ETS.",
   "scripts": {
     "build": "node scripts/build-standalone.mjs",
     "start": "node server.mjs",
