@@ -1,0 +1,94 @@
+TOEFL 2026 Practice Lab v6.0.0
+QA date: 2026-08-26
+
+FINAL RELEASE GATE
+PASS  npm run release:check
+PASS  required-file and nonempty-artifact checks
+PASS  package/app/storage/standalone version consistency
+PASS  per-file SHA-256 RELEASE_MANIFEST.json generation
+
+AUTOMATED TESTS
+PASS  npm test                         73/73 tests
+PASS  npm run content:audit            structural gate
+PASS  editorial coverage               100/100 category coverage
+PASS  hard content errors              0
+PASS  near-duplicate review flags      0
+PASS  npm run build                    standalone.html generated
+PASS  npm run test:e2e                 E2E_SMOKE_OK
+PASS  Node syntax/release checks
+
+CONTENT AUDIT
+PASS  official source registry         15 unique ETS/ETS Research records
+PASS  public full-length registry      2 regular + 5 teacher practice forms
+PASS  full original Reading forms      2
+PASS  CTW passages                     12
+PASS  Daily Life stimuli/questions     17 / 42
+PASS  Daily Life format coverage       14/14
+PASS  Daily Life skill coverage        9/9
+PASS  Academic passages/questions      6 / 30
+PASS  Academic domain coverage         6/6
+PASS  Academic skill coverage          6/6
+PASS  Build sets/items                 4 / 40
+PASS  Build grammar coverage           15/15 editorial families
+PASS  Email prompts/purposes           8 / 7 of 7 purpose families
+PASS  Discussion prompts               8
+PASS  prohibited provenance rejection  leaked/recalled-live/operational/unknown-copy
+
+UNIT / CONTRACT COVERAGE
+- source-registry uniqueness, publisher restriction, and use policy
+- task/form blueprints and public-facing word-count boundaries
+- editorial coverage without psychometric claims
+- two complete Reading forms and focused banks
+- all bundled content passes the generation structural gate
+- CTW canonical positions, safe targets, reversibility, scoring, namespacing
+- Reading 50-presented / 35-scored form contract
+- research items excluded from the scored result
+- deterministic explicitly uncalibrated practice route
+- Build choice/sequence/distractor constraints
+- Email three-goal and diagnostic constraints
+- Discussion identity/view constraints
+- Daily and Academic generation validation
+- all six local generation task types
+- provider JSON parsing, fallback, timeout, and local status
+- server health/content APIs and encoded traversal rejection
+- local storage migration, sanitization, autosave, resume, retention, retry
+- CSV formula neutralization and timing export
+- in-app confirmations, timer pause/resume, focus containment
+- Content Intelligence and Focused Practice UI contracts
+
+HEADLESS CHROMIUM E2E COVERAGE
+- dashboard and two-form selection
+- formal Reading Section Directions
+- full Module 1 CTW, Daily Life, and Academic pages
+- within-module Back/Next
+- incomplete-module confirmation
+- irreversible Module 1 lock
+- route hidden on untimed transition
+- Module 2 and Reading review
+- scored/research disclosure
+- Reading Exit, autosave, and Resume
+- Content Intelligence source/coverage page
+- JSON content-audit download
+- Focused Daily submit/review
+- Focused Academic submit/review
+- second original Reading form start
+- targeted CTW partial submission and paused modal timer
+- formal Writing directions and task transitions
+- Build keyboard interaction
+- Email and Discussion editing/review
+- mobile Reading and Email without horizontal overflow
+
+RELEASE INTERPRETATION
+- Software structural and interaction checks passed.
+- 100/100 means declared editorial categories are represented.
+- It does not establish item calibration, reliability, fairness, official difficulty,
+  Writing grader agreement, score equating, or official 1–6 interpretation.
+- Human editorial review and pilot testing remain required by the release gate.
+
+UNEXECUTED / EXTERNAL BOUNDARIES
+- no external paid-provider request was made in this environment
+- no human Writing benchmark was available
+- no representative psychometric pilot was performed
+- no NVDA/JAWS/VoiceOver lab audit was performed
+- no full Safari/Firefox/Edge real-device matrix was performed
+- no penetration test was performed

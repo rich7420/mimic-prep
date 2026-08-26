@@ -1,0 +1,1342 @@
+{
+  "generatedAt": "2026-08-26T08:02:30.377Z",
+  "sourceRegistryVersion": "2026-08-26",
+  "sourceRegistry": {
+    "valid": true,
+    "count": 15,
+    "errors": []
+  },
+  "formBlueprint": {
+    "reading": {
+      "totalPresented": 50,
+      "scored": 35,
+      "router": {
+        "presented": 35,
+        "scored": 20,
+        "research": 15,
+        "seconds": [
+          1080,
+          1260
+        ]
+      },
+      "module2": {
+        "presented": 15,
+        "scored": 15,
+        "seconds": 540
+      },
+      "taskTypes": [
+        "ctw",
+        "daily",
+        "academic"
+      ],
+      "adaptive": true,
+      "operationalEquivalenceClaimAllowed": false
+    },
+    "writing": {
+      "totalItems": 12,
+      "rawPoints": 20,
+      "approximateSeconds": 1380,
+      "linear": true,
+      "sequence": [
+        "build",
+        "email",
+        "discussion"
+      ]
+    }
+  },
+  "counts": {
+    "readingForms": 2,
+    "ctwPassages": 12,
+    "dailyStimuli": 17,
+    "mockDailyStimuli": 12,
+    "focusedDailyStimuli": 5,
+    "dailyQuestions": 42,
+    "academicPassages": 6,
+    "mockAcademicPassages": 4,
+    "focusedAcademicPassages": 2,
+    "academicQuestions": 30,
+    "buildSets": 4,
+    "buildItems": 40,
+    "emailTasks": 8,
+    "discussionTasks": 8
+  },
+  "sections": {
+    "ctw": {
+      "count": 12,
+      "valid": 12,
+      "invalid": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "daily": {
+      "count": 17,
+      "valid": 17,
+      "invalid": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "academic": {
+      "count": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "build": {
+      "count": 4,
+      "valid": 4,
+      "invalid": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "email": {
+      "count": 8,
+      "valid": 8,
+      "invalid": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "discussion": {
+      "count": 8,
+      "valid": 8,
+      "invalid": 0,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "analyses": {
+    "ctw": [
+      {
+        "id": "ctw-community-gardens",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 86,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "other",
+          "verb-or-adjective",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "verb-or-adjective"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0.023,
+        "domain": "Daily life / community",
+        "level": "B1–B2",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-sleep-memory",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 87,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "other",
+          "adjective",
+          "other",
+          "adjective",
+          "other",
+          "other",
+          "adverb",
+          "noun"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "adjective",
+          "adverb",
+          "noun"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0,
+        "domain": "Life science",
+        "level": "B2",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-repair-cafes",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 91,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "verb-or-adjective",
+          "verb-or-adjective",
+          "other",
+          "other",
+          "other",
+          "other",
+          "noun",
+          "noun",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "verb-or-adjective",
+          "other",
+          "noun"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0,
+        "domain": "Daily life / sustainability",
+        "level": "B1–B2",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-maps-arguments",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 88,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "other",
+          "other",
+          "verb",
+          "other",
+          "other",
+          "other",
+          "other",
+          "adjective"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "verb",
+          "adjective"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0,
+        "domain": "Social science / history",
+        "level": "B2–C1",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-pollination-networks",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 89,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "noun"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "noun"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0.022,
+        "domain": "Life science",
+        "level": "B2",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-thermal-mass",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 92,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "verb",
+          "other",
+          "other",
+          "other",
+          "verb",
+          "other",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "verb"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0.011,
+        "domain": "Environmental design",
+        "level": "B2–C1",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-collective-memory",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 92,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "adverb",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "adverb"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0.022,
+        "domain": "Social science",
+        "level": "B2–C1",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-soil-microbes",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 95,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0.011,
+        "domain": "Life science",
+        "level": "B2",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-urban-heat",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 93,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "noun",
+          "adjective"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "noun",
+          "adjective"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0.011,
+        "domain": "Environmental science",
+        "level": "B1–B2",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-archaeological-pollen",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 89,
+        "sentenceCount": 5,
+        "gapCount": 10,
+        "targetPolicy": "canonical-every-second-word",
+        "targetPartOfSpeech": [
+          "other",
+          "verb",
+          "adjective",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other",
+          "verb",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "verb",
+          "adjective"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0,
+        "domain": "Archaeology",
+        "level": "B2–C1",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-market-signals",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 90,
+        "sentenceCount": 6,
+        "gapCount": 10,
+        "targetPolicy": "curated-public-rule-safe",
+        "targetPartOfSpeech": [
+          "other",
+          "other",
+          "adverb",
+          "verb-or-adjective",
+          "other",
+          "noun",
+          "other",
+          "other",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "other",
+          "adverb",
+          "verb-or-adjective",
+          "noun"
+        ],
+        "properNounEstimate": 0,
+        "dialogueDetected": false,
+        "longWordRatio": 0,
+        "domain": "Economics",
+        "level": "B2–C1",
+        "provenance": "original"
+      },
+      {
+        "id": "ctw-bird-migration",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 89,
+        "sentenceCount": 5,
+        "gapCount": 10,
+        "targetPolicy": "curated-public-rule-safe",
+        "targetPartOfSpeech": [
+          "noun",
+          "other",
+          "noun",
+          "other",
+          "verb-or-adjective",
+          "noun",
+          "other",
+          "other",
+          "other",
+          "other"
+        ],
+        "targetPartOfSpeechCoverage": [
+          "noun",
+          "other",
+          "verb-or-adjective"
+        ],
+        "properNounEstimate": 1,
+        "dialogueDetected": false,
+        "longWordRatio": 0,
+        "domain": "Life science",
+        "level": "B2–C1",
+        "provenance": "original"
+      }
+    ],
+    "daily": [
+      {
+        "id": "daily-router-bike-repair",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "notice",
+        "wordCount": 70,
+        "questionCount": 2,
+        "skills": [
+          "scan",
+          "factual-information"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily-router-library-email",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "email",
+        "wordCount": 82,
+        "questionCount": 3,
+        "skills": [
+          "factual-information",
+          "purpose",
+          "inference"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily-router-museum-flyer",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "poster",
+        "wordCount": 72,
+        "questionCount": 2,
+        "skills": [
+          "scan",
+          "apply-information"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily-router-job-messages",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "messages",
+        "wordCount": 87,
+        "questionCount": 3,
+        "skills": [
+          "main-purpose",
+          "inference",
+          "speaker-intent"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily-lower-community-center",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "schedule",
+        "wordCount": 46,
+        "questionCount": 2,
+        "skills": [
+          "scan"
+        ],
+        "register": "unclassified",
+        "informationStructure": "nonlinear-or-mixed",
+        "provenance": "original"
+      },
+      {
+        "id": "daily-lower-lost-item",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "email",
+        "wordCount": 79,
+        "questionCount": 3,
+        "skills": [
+          "factual-information",
+          "purpose",
+          "apply-information"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily2-router-course-schedule",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "schedule",
+        "wordCount": 67,
+        "questionCount": 2,
+        "skills": [
+          "apply-information",
+          "scan"
+        ],
+        "register": "unclassified",
+        "informationStructure": "nonlinear-or-mixed",
+        "provenance": "original"
+      },
+      {
+        "id": "daily2-router-device-invoice",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "invoice",
+        "wordCount": 68,
+        "questionCount": 3,
+        "skills": [
+          "scan",
+          "factual-information",
+          "purpose"
+        ],
+        "register": "unclassified",
+        "informationStructure": "nonlinear-or-mixed",
+        "provenance": "original"
+      },
+      {
+        "id": "daily2-router-club-messages",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "messages",
+        "wordCount": 87,
+        "questionCount": 3,
+        "skills": [
+          "inference",
+          "purpose",
+          "telegraphic-language"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily2-router-gallery-webpage",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "webpage",
+        "wordCount": 78,
+        "questionCount": 2,
+        "skills": [
+          "apply-information",
+          "factual-information"
+        ],
+        "register": "unclassified",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "daily2-lower-cafe-menu",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "menu",
+        "wordCount": 64,
+        "questionCount": 2,
+        "skills": [
+          "scan",
+          "apply-information"
+        ],
+        "register": "unclassified",
+        "informationStructure": "nonlinear-or-mixed",
+        "provenance": "original"
+      },
+      {
+        "id": "daily2-lower-health-form",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "form",
+        "wordCount": 77,
+        "questionCount": 3,
+        "skills": [
+          "factual-information",
+          "scan",
+          "apply-information"
+        ],
+        "register": "unclassified",
+        "informationStructure": "nonlinear-or-mixed",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-daily-music-room-sign",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "sign",
+        "wordCount": 67,
+        "questionCount": 2,
+        "skills": [
+          "idiom",
+          "apply-information"
+        ],
+        "register": "neutral",
+        "informationStructure": "telegraphic",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-daily-tool-library-post",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "social-post",
+        "wordCount": 75,
+        "questionCount": 3,
+        "skills": [
+          "purpose",
+          "informal-language",
+          "inference"
+        ],
+        "register": "informal",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-daily-transit-ad",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "advertisement",
+        "wordCount": 64,
+        "questionCount": 2,
+        "skills": [
+          "scan",
+          "purpose"
+        ],
+        "register": "neutral",
+        "informationStructure": "mixed",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-daily-owl-news",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "news-article",
+        "wordCount": 90,
+        "questionCount": 3,
+        "skills": [
+          "skim",
+          "scan",
+          "inference"
+        ],
+        "register": "neutral",
+        "informationStructure": "linear",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-daily-camera-receipt",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "format": "receipt",
+        "wordCount": 43,
+        "questionCount": 2,
+        "skills": [
+          "nonlinear-information",
+          "apply-information"
+        ],
+        "register": "telegraphic",
+        "informationStructure": "nonlinear",
+        "provenance": "original"
+      }
+    ],
+    "academic": [
+      {
+        "id": "academic-router-urban-streams",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 186,
+        "questionCount": 5,
+        "skills": [
+          "main-idea",
+          "factual-information",
+          "vocabulary-in-context",
+          "rhetorical-purpose",
+          "inference"
+        ],
+        "domain": "life-science",
+        "declaredDomain": "Environmental science",
+        "provenance": "original"
+      },
+      {
+        "id": "academic-upper-tool-use",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 214,
+        "questionCount": 5,
+        "skills": [
+          "main-idea",
+          "factual-information",
+          "vocabulary-in-context",
+          "inference",
+          "rhetorical-purpose"
+        ],
+        "domain": "social-science",
+        "declaredDomain": "Anthropology / cognition",
+        "provenance": "original"
+      },
+      {
+        "id": "academic2-router-subscription-choices2",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 202,
+        "questionCount": 5,
+        "skills": [
+          "main-idea",
+          "factual-information",
+          "vocabulary-in-context",
+          "inference",
+          "rhetorical-purpose"
+        ],
+        "domain": "business-and-economics",
+        "declaredDomain": "Business and economics",
+        "provenance": "original"
+      },
+      {
+        "id": "academic2-upper-mural-pigments",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 211,
+        "questionCount": 5,
+        "skills": [
+          "main-idea",
+          "factual-information",
+          "vocabulary-in-context",
+          "inference",
+          "rhetorical-purpose"
+        ],
+        "domain": "art-and-music",
+        "declaredDomain": "Art and physical science",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-academic-roadside-inns",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 173,
+        "questionCount": 5,
+        "skills": [
+          "main-idea",
+          "factual-information",
+          "vocabulary-in-context",
+          "inference",
+          "idea-relationships"
+        ],
+        "domain": "history",
+        "declaredDomain": "History",
+        "provenance": "original"
+      },
+      {
+        "id": "focused-academic-freeze-thaw",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "wordCount": 181,
+        "questionCount": 5,
+        "skills": [
+          "main-idea",
+          "factual-information",
+          "vocabulary-in-context",
+          "inference",
+          "idea-relationships"
+        ],
+        "domain": "physical-science",
+        "declaredDomain": "Physical science / geology",
+        "provenance": "original"
+      }
+    ],
+    "build": [
+      {
+        "id": "build-core-01",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "itemCount": 10,
+        "grammarFamilies": [
+          "relative-clause",
+          "agreement",
+          "indirect-question",
+          "passive",
+          "indirect-yes/no-question",
+          "polite-request",
+          "conditional",
+          "time-reference",
+          "exclamative-clause",
+          "adverb-position",
+          "verb-complement",
+          "neither…nor",
+          "dummy-object-“it”",
+          "comparison",
+          "subject-complement"
+        ],
+        "provenance": "original"
+      },
+      {
+        "id": "build-core-02",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "itemCount": 10,
+        "grammarFamilies": [
+          "present-simple",
+          "embedded-information",
+          "verb-complement",
+          "time-phrase",
+          "reported-speech",
+          "modal",
+          "relative-clause",
+          "subject-complement",
+          "condition",
+          "indirect-question",
+          "copular-clause",
+          "comparison",
+          "perfect-aspect",
+          "conditional",
+          "present-in-if-clause",
+          "indirect-yes/no-question",
+          "passive"
+        ],
+        "provenance": "original"
+      },
+      {
+        "id": "build-core-03",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "itemCount": 10,
+        "grammarFamilies": [
+          "reported-clause",
+          "passive",
+          "complex-object",
+          "comparison",
+          "prepositional-complement",
+          "not-only...but-also",
+          "fused-relative",
+          "condition",
+          "adjective-complement",
+          "verb-complement",
+          "mandative-subjunctive",
+          "perfect-aspect",
+          "coordination",
+          "embedded-wh-clause",
+          "parallelism"
+        ],
+        "provenance": "original"
+      },
+      {
+        "id": "build-coverage-04",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "itemCount": 10,
+        "grammarFamilies": [
+          "auxiliary-inversion",
+          "noun-clause",
+          "agreement",
+          "negation",
+          "clause-combination",
+          "cause-clause",
+          "temporal-clause",
+          "present-for-future-time",
+          "perfect-aspect",
+          "verb-complement",
+          "indirect-question",
+          "modal",
+          "concession-clause"
+        ],
+        "provenance": "original"
+      }
+    ],
+    "email": [
+      {
+        "id": "email-room-reservation",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "recommendation",
+          "problem-solution",
+          "explanation"
+        ],
+        "setting": "Academic / campus organization",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-volunteer-invitation",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "invitation",
+          "explanation"
+        ],
+        "setting": "Social / community",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-lab-equipment",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "problem-solution",
+          "explanation"
+        ],
+        "setting": "Academic / laboratory",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-advising-conflict",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "status-inquiry",
+          "invitation",
+          "explanation"
+        ],
+        "setting": "Academic / advising",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-library-hold",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "status-inquiry",
+          "problem-solution",
+          "explanation"
+        ],
+        "setting": "Academic / library",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-campus-job",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "explanation"
+        ],
+        "setting": "Academic / employment",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-missing-data",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "explanation"
+        ],
+        "setting": "Academic / research",
+        "hasVisualContext": true,
+        "provenance": "original"
+      },
+      {
+        "id": "email-workshop-waitlist",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "goalCount": 3,
+        "purposes": [
+          "request",
+          "give-information",
+          "status-inquiry",
+          "recommendation",
+          "explanation"
+        ],
+        "setting": "Academic / professional development",
+        "hasVisualContext": true,
+        "provenance": "original"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "discussion-campus-cars",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "social-science",
+        "course": "Urban Planning",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-group-projects",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "unclassified",
+        "course": "Education",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-digital-museums",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "unclassified",
+        "course": "Museum Studies",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-open-textbooks",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "unclassified",
+        "course": "Education Policy",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-city-trees",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "life-science",
+        "course": "Environmental Planning",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-recorded-lectures",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "unclassified",
+        "course": "Learning Sciences",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-local-food",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "unclassified",
+        "course": "Sustainable Food Systems",
+        "provenance": "original"
+      },
+      {
+        "id": "discussion-ai-office-hours",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "studentCount": 2,
+        "domain": "unclassified",
+        "course": "Higher Education",
+        "provenance": "original"
+      }
+    ]
+  },
+  "coverage": {
+    "dailyFormats": {
+      "covered": [
+        "notice",
+        "email",
+        "poster",
+        "messages",
+        "schedule",
+        "invoice",
+        "webpage",
+        "menu",
+        "form",
+        "sign",
+        "social-post",
+        "advertisement",
+        "news-article",
+        "receipt"
+      ],
+      "missing": [],
+      "ratio": 1
+    },
+    "dailySkills": {
+      "covered": [
+        "scan",
+        "purpose",
+        "inference",
+        "apply-information",
+        "telegraphic-language",
+        "idiom",
+        "informal-language",
+        "skim",
+        "nonlinear-information"
+      ],
+      "missing": [],
+      "ratio": 1
+    },
+    "academicDomains": {
+      "covered": [
+        "life-science",
+        "social-science",
+        "business-and-economics",
+        "art-and-music",
+        "history",
+        "physical-science"
+      ],
+      "missing": [],
+      "ratio": 1
+    },
+    "academicSkills": {
+      "covered": [
+        "main-idea",
+        "factual-information",
+        "vocabulary-in-context",
+        "rhetorical-purpose",
+        "inference",
+        "idea-relationships"
+      ],
+      "missing": [],
+      "ratio": 1
+    },
+    "buildGrammar": {
+      "covered": [
+        "relative-clause",
+        "agreement",
+        "indirect-question",
+        "passive",
+        "conditional",
+        "verb-complement",
+        "comparison",
+        "reported-speech",
+        "modal",
+        "perfect-aspect",
+        "auxiliary-inversion",
+        "noun-clause",
+        "negation",
+        "clause-combination",
+        "temporal-clause"
+      ],
+      "missing": [],
+      "ratio": 1
+    },
+    "emailPurposes": {
+      "covered": [
+        "request",
+        "give-information",
+        "recommendation",
+        "problem-solution",
+        "explanation",
+        "invitation",
+        "status-inquiry"
+      ],
+      "missing": [],
+      "ratio": 1
+    }
+  },
+  "duplicates": {
+    "duplicateIds": [],
+    "nearDuplicates": []
+  },
+  "hardErrors": [],
+  "warnings": [],
+  "editorialCoverageScore": 100,
+  "psychometricCalibration": {
+    "status": "not-calibrated",
+    "note": "Coverage and structural validation do not establish item difficulty, discrimination, routing validity, equating, or official score equivalence."
+  },
+  "sourcePolicy": {
+    "allowedProvenance": [
+      "original",
+      "public-domain",
+      "licensed"
+    ],
+    "prohibitedProvenance": [
+      "leaked",
+      "recalled-live-item",
+      "operational",
+      "unknown-copy"
+    ],
+    "rules": [
+      "Do not ingest or reconstruct live, leaked, or recalled operational questions.",
+      "Do not paraphrase an official practice question closely enough to preserve its distinctive content or distractors.",
+      "Use public ETS materials to derive specifications, coverage targets, and interaction patterns only.",
+      "Every generated item must pass deterministic validation and human editorial review before pilot or active status.",
+      "Practice scores must not be described as official or operationally equivalent without calibration evidence."
+    ]
+  },
+  "releaseGate": {
+    "structuralPass": true,
+    "nearDuplicateReviewRequired": false,
+    "humanReviewRequired": true,
+    "pilotRequired": true
+  }
+}

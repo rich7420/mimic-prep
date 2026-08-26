@@ -1,0 +1,35 @@
+TOEFL 2026 Practice Lab v6.0.0 — Complete Source Package QA
+Date: 2026-08-26
+
+Verified from the complete-source working tree:
+- npm ci: PASS
+- Node unit/contract/API/UI-contract tests: 73/73 PASS
+- content audit: PASS
+- editorial category coverage: 100/100
+- hard content errors: 0
+- near-duplicate review flags: 0
+- standalone build: PASS
+- Chromium end-to-end smoke test: PASS (E2E_SMOKE_OK)
+- release integrity gate: PASS (RELEASE_GATE_OK v6.0.0)
+- provider generation contract covers: CTW, Daily Life, Academic Passage, Build, Email, Discussion
+
+Packaging checks:
+- complete modular source included
+- standalone offline HTML included
+- package-lock.json included
+- .env.example included
+- Dockerfile and docker-compose.yml included
+- POSIX and PowerShell launchers included
+- tests, QA screenshots, content audit, research, review, and architecture docs included
+- node_modules and secrets excluded
+
+Environment limitation:
+- A Docker runtime/daemon was not available in the packaging environment, so the Docker image was not executed here.
+- Docker configuration is included, but should be built in the target environment or CI before deployment.
+
+Product boundary:
+- unofficial controlled-pilot candidate
+- not ETS-endorsed
+- no official 1–6 score conversion
+- adaptive route is explicitly uncalibrated
+- public multi-user deployment still requires authentication, authorization, privacy controls, and additional security review

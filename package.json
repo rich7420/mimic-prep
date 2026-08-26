@@ -1,0 +1,22 @@
+{
+  "name": "toefl-2026-practice-lab",
+  "version": "6.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial ETS-aligned 2026 TOEFL mock and focused-practice platform with content intelligence, two parallel Reading forms, full Writing, persistent records, and provider-neutral generation/grading.",
+  "scripts": {
+    "build": "node scripts/build-standalone.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "python scripts/e2e-smoke.py",
+    "content:audit": "node scripts/content-audit.mjs",
+    "verify": "npm test && npm run content:audit && npm run build",
+    "release:check": "npm run verify && npm run test:e2e && node scripts/release-check.mjs",
+    "dev": "node --watch server.mjs",
+    "start:env": "node --env-file=.env server.mjs",
+    "check": "npm run verify"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

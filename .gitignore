@@ -1,0 +1,31 @@
+# Dependencies and caches
+node_modules/
+.npm/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Runtime output
+*.log
+coverage/
+.tmp/
+tmp/
+dist/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated QA artifacts (keep committed reference screenshots already in qa/)
+qa/local-*
+qa/debug-*
+# CocoIndex Code (ccc)
+/.cocoindex_code/
